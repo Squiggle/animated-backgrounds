@@ -1,0 +1,13 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "global": "app.global.js",
+  "core": "app.core.js",
+  "corePolyfilled": "app.core.pf.js",
+  "components": {
+    "animated-background-dip-on-scroll": {
+      "$": "animated-background-dip-on-scroll"
+    }
+  }
+}

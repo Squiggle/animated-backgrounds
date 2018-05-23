@@ -1,0 +1,27 @@
+{
+  "name": "animated-backgrounds",
+  "version": "0.0.1",
+  "description": "Web components for animated backgrounds using CSS and SVG",
+  "main": "dist/myname.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build --prerender",
+    "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",
+    "serve": "stencil-dev-server",
+    "start": "npm run dev --es5"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@stencil/core": "^0.7.27-4",
+    "@types/node": "^9.6.0",
+    "@stencil/dev-server": "latest",
+    "@stencil/sass": "0.0.2",
+    "@stencil/utils": "latest"
+  },
+  "author": "Jonathan Gilroy-Powell",
+  "license": "MIT"
+}
